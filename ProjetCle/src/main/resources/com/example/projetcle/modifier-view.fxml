@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="285.0" prefWidth="333.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetcle.modifierController">
+    <children>
+        <ComboBox  fx:id="nomcoul" layoutX="91.0" layoutY="65.0" prefWidth="150.0" />
+        <TextField fx:id="nouvcoul" layoutX="92.0" layoutY="115.0" />
+        <TextField fx:id="nouvouv" layoutX="91.0" layoutY="164.0" />
+        <Label layoutX="144.0" layoutY="48.0" text="Numéro" />
+        <Label layoutX="145.0" layoutY="98.0" text="Couleur" />
+        <Label layoutX="140.0" layoutY="147.0" text="Ouverture" />
+        <Button layoutX="188.0" layoutY="212.0" mnemonicParsing="false" onAction="#onValiderModCleClick" text="Valider" />
+
+    </children>
+</AnchorPane>

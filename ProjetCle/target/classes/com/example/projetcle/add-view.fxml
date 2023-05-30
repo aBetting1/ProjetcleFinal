@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="246.0" prefWidth="308.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetcle.addController">
+   <children>
+      <Button layoutX="127.0" layoutY="181.0" mnemonicParsing="false" text="Ajouter" onAction="#onAddUserBDDClick"/>
+      <TextField fx:id="login" layoutX="79.0" layoutY="57.0" />
+      <TextField fx:id="mdp" layoutX="80.0" layoutY="101.0" />
+      <ComboBox fx:id="droit" layoutX="79.0" layoutY="145.0" prefHeight="25.0" prefWidth="149.0" promptText="Droits" />
+      <Label layoutX="139.0" layoutY="40.0" text="Login" />
+      <Label layoutX="119.0" layoutY="83.0" text="Mot de passe" />
+      <Label layoutX="137.0" layoutY="127.0" text="Droits" />
+   </children>
+</AnchorPane>
